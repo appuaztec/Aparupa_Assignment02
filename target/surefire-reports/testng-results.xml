@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-02T10:04:40Z" name="Default Suite" finished-at="2020-08-02T10:04:58Z" duration-ms="18414">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.runner@2118cddf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-08-02T10:04:40Z" name="Aparupa_Assignment1" finished-at="2020-08-02T10:04:58Z" duration-ms="18414">
+      <class name="testRunner.runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.runner@2118cddf]" started-at="2020-08-02T10:04:40Z" name="setUpClass" finished-at="2020-08-02T10:04:41Z" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.runner@2118cddf]" started-at="2020-08-02T10:04:41Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-08-02T10:04:58Z" duration-ms="17054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Single Trip Goibibo Booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Booking a flight in Goibibo.com]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.runner@2118cddf]" started-at="2020-08-02T10:04:58Z" name="tearDownClass" finished-at="2020-08-02T10:04:58Z" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.runner -->
+    </test> <!-- Aparupa_Assignment1 -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch to GoIbibo",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-08-02T10:04:41.853Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11522659100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepInit.cBefore()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Single Trip Goibibo Booking",
+        "description": "",
+        "id": "booking-a-flight-in-goibibo.com;single-trip-goibibo-booking;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.StepInit.cAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 728041600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User in GoIbibo page",
+            "match": {
+              "location": "StepDefinitions.MyStepdefs.userInGoIbiboPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 664037900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "choose type of travel \"One way\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"One way\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.MyStepdefs.chooseTypeOfTravel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3326190300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select source \"Kolkata\", \"Bengaluru\" and \"Fri, 28 Aug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kolkata\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Bengaluru\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Fri, 28 Aug\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinitions.MyStepdefs.selectwayType(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307017600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the traveller details \"2\", \"1\" and \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitions.MyStepdefs.selectTheTravellerDetailsAnd(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Booking a flight in Goibibo.com",
+    "description": "",
+    "id": "booking-a-flight-in-goibibo.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/Features/Login.feature",
+    "tags": []
+  }
+]
